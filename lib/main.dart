@@ -32,9 +32,9 @@ class HomeActivity extends StatelessWidget {
         length: 5,
         child: Scaffold(
           appBar: AppBar(
-            title: const Text("Tab Bar Tab View Fragment"),
+            title: const Center(child: Text("Tab Bar Tab View Fragment"),),
             bottom: const TabBar(
-              tabAlignment: TabAlignment.start,
+              tabAlignment: TabAlignment.center,
               isScrollable: true,
               tabs: [
                 Tab(icon: Icon(Icons.home), text: "Home"),
